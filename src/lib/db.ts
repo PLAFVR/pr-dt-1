@@ -18,7 +18,7 @@ export async function executeQuery<T = any>(query: string, values: any[] = []): 
     return rows as T;
   } catch (error) {
     console.error('Database query error:', error);
-    //  แก้ไขบรรทัดนี้เพื่อส่ง Error จริงจาก MySQL ออกไป
+
     throw error;
   }
 }
