@@ -240,7 +240,7 @@ export default function DashboardPage() {
                   <th className="py-3 px-4 rounded-l-lg">ชื่ออาชีพ</th>
                   <th className="py-3 px-4">ระดับการศึกษา</th>
                   <th className="py-3 px-4">เงินเดือนเฉลี่ย ($)</th>
-                  <th className="py-3 px-4">ความเสี่ยงอัตโนมัติ (%)</th>
+                  <th className="py-3 px-4">ความเสี่ยง (%)</th>
                   <th className="py-3 px-4 rounded-r-lg">ระดับผลกระทบ AI</th>
                 </tr>
               </thead>
